@@ -18,8 +18,6 @@ entity PWM_controller is
     );
 end PWM_controller;
 
-
-
 architecture behavioral of PWM_controller is 
 	signal sig_width : integer range 0 to 1999; 
 
