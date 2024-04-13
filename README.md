@@ -11,6 +11,7 @@
 <br>
 <div>
   <h2>Teoretický rozbor a vysvětlení problému</h2>
+  <p>Cílem projektu je </p>
   <p><h3>Pulzně šířková modulace (PWM)</h3>
 </div>
 
