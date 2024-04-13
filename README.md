@@ -8,8 +8,7 @@
   <p>Lukáš Bahurinský (240227)</p>
   <p>Petr Losert (247140)</p>
 </div>
-
-
+<br>
 <div>
   <h3>Teoretický rozbor a vysvětlení problému</h3>
   
