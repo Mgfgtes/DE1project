@@ -1,4 +1,4 @@
-<h1 align="center"> Řešení projektu z předmětu BPC-DE1</h1>
+<h1 align="center", background-color: #66ccff> Řešení projektu z předmětu BPC-DE1</h1>
 <h2 align="center">Zadání č. 3: Řízení polohy servomotoru pomocí PWM </h2>
 
 <div>
