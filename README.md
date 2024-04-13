@@ -9,6 +9,7 @@
   <p>Petr Losert (247140)</p>
 </div>
 
+
 <div>
   <h3>Teoretický rozbor a vysvětlení problému</h3>
   
