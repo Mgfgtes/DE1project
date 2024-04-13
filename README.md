@@ -2,10 +2,10 @@
 <h2 align="center">Zadání č. 3: Řízení polohy servomotoru pomocí PWM </h2>
 
 <div>
-Na projektu spolupracovali: Matěj Matoušek (247142)<br>
-                            Věra Podestátová (247800)<br>
-                            Lukáš Bahurinský (240227)<br>
-                            Petr Losert (247140)
+Na projektu spolupracovali: <p>Matěj Matoušek (247142)</p><br>
+                            <p>Věra Podestátová (247800)</p><br>
+                            <p>Lukáš Bahurinský (240227)</p><br>
+                            <p>Petr Losert (247140)</p>
 </div>
 
 
