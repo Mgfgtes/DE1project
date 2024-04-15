@@ -1,4 +1,4 @@
-![images](https://github.com/Mgfgtes/DE1project/assets/114689757/147651a4-d3d9-45e6-8852-604b3b135f55)
+
 <h1 align="center"> Řešení semestrálního projektu z předmětu BPC-DE1</h1>
 <h2 align="center">Zadání č. 3: Řízení polohy servomotoru pomocí PWM </h2>
 
@@ -23,7 +23,7 @@
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
   - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms <br>
   - provozní napětí 4,8 až 6 V</p>
-
+![images](https://github.com/Mgfgtes/DE1project/assets/114689757/147651a4-d3d9-45e6-8852-604b3b135f55)
   
 </div>
 
