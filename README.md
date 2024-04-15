@@ -28,13 +28,16 @@
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
   - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms <br>
   - provozní napětí 4,8 až 6 V</p>
-  <p>Program v jazyce VHDL je nahrán na desku Nexys A7, přičemž pro připojení servomotoů k desce jsou vyuity </p>
+  <p><h4>Popis hardwarového zapojení</h4>
+  Program v jazyce VHDL je nahrán na desku Nexys A7, přičemž pro připojení servomotoů k desce jsou vyuity </p>
   
 
   
-</div>
+</div>![images](https://github.com/Mgfgtes/DE1project/assets/114689757/70549d0e-8807-43a4-99fd-24452b26dabd)
 
 
+
+![images align="center"](https://github.com/Mgfgtes/DE1project/assets/114689757/7539c1b6-a347-4505-8d91-d54a4b458064)
 
 
 
