@@ -18,13 +18,13 @@
 <br>
 <div>
   <p><h2>Hardwarové komponenty a schéma zapojení</h2></p>
-  <h4><p>Pro sestavení projektu jsme použili hardwarové komponenty:</h4></p>
-  - servomotory Micro Servo SG90
-  - převodník napěťové úrovně s tranzistory 
-  - Arduino UNO desku
-  - Nexys A7 desku
-  - propojoací kabely a digitální osciloskop pro kontrolní měření a odladění programu
-  <h4><p>Pro použitá serva udává výrobce následující důležité parametry:</h4>
+  <p><h4>Pro sestavení projektu jsme použili hardwarové komponenty:</h4>
+  - servomotory Micro Servo SG90 <br>
+  - převodník napěťové úrovně s tranzistory <br> 
+  - Arduino UNO desku <br>
+  - Nexys A7 desku <br>
+  - propojoací kabely a digitální osciloskop pro kontrolní měření a odladění programu</p>
+  <p><h4>Pro použitá serva udává výrobce následující důležité parametry:</h4>
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
   - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms <br>
   - provozní napětí 4,8 až 6 V</p>
