@@ -16,7 +16,7 @@
   <p>Servomotor (též zkráceně servo) je typ motoru, u něhož můžeme pomocí řídícího signálu řídit natočení osy. Lze tak nastavit přesný úhel natočení serva na základě vstupních požadavků uživatele. Poloha serva se nastavuje pomocí měnící se střídy signálu přivedeného na jeho řídídí vstup. Na tento vstup mohou být přivedeny dvě logické úrovně, logická 1 a logická 0, přičemž střída řídícího signálu udává poměr mezi těmito úrovněmi. Pomocí PWM je tato střída nastavována, a tím i poloha natočení serva.</p> 
   <h4><p>Použitý typ serva je SG90, u něhož udává výrobce následující důležité údaje:</h4>
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
-  - sdsds</p>
+  - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, kraní pozice 180° odpovídá šířce pulzu 2 ms</p>
   
   
 </div>
