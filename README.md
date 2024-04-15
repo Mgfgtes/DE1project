@@ -37,7 +37,7 @@
 
 
 
-![images align="center"](https://github.com/Mgfgtes/DE1project/assets/114689757/7539c1b6-a347-4505-8d91-d54a4b458064)
+![images](align="center"¨,https://github.com/Mgfgtes/DE1project/assets/114689757/7539c1b6-a347-4505-8d91-d54a4b458064)
 
 
 
