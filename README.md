@@ -18,7 +18,7 @@
 <br>
 <div>
   <p><h2>Hardwarové komponenty a schéma zapojení</h2></p>
-  <h4><p>Použito je servo typu SG90, u něhož udává výrobce následující důležité údaje:</h4>
+  <h4><p>Použito je servo s označením SG90, u něhož udává výrobce následující důležité údaje:</h4>
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
   - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms <br>
   - provozní napětí 4,8 až 6 V</p>
