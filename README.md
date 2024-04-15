@@ -28,7 +28,7 @@
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
   - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms <br>
   - provozní napětí 4,8 až 6 V</p>
-  <p>Použito je servo typu SG90, u něhož udává výrobce následující důležité údaje</p>
+  <p>Program v jazyce VHDL je nahrán na desku Nexys A7, přičemž pro připojení servomotoů k desce jsou vyuity </p>
   
 
   
