@@ -29,7 +29,7 @@
   - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms <br>
   - provozní napětí 4,8 až 6 V</p>
   <p><h4>Popis hardwarového zapojení</h4>
-  Program v jazyce VHDL je nahrán na desku Nexys A7, přičemž pro připojení servomotoů k desce jsou vyuity Pmod výstupy s označením JA. Zapojeny jsou tři serva, každé na jeden z nezávislých výstupů JA1 až JA3. To umožňuje každé servo ovládat odděleně, nezávisle na ostatních, přičemž přepínání ovládání mezi servy je realizováno pomocí přepínačů na desce Nexys. </p>
+  Program v jazyce VHDL je nahrán na desku Nexys A7, přičemž pro připojení servomotoů k desce jsou využity Pmod výstupy s označením JA. Zapojeny jsou tři serva, jejich řídící vstupy jsou zapojeny každý na jeden z nezávislých výstupů JA1 až JA3. To umožňuje každé servo ovládat odděleně, nezávisle na ostatních, přičemž přepínání ovládání mezi servy je realizováno pomocí přepínačů na desce Nexys. Z desky Nexys je dále vyveden výstup 3,3 V (JA6) a výstup GND (JA5). Provozní napětí serv je ovšem 5 V, a proto jsou řídící výstupy JA1 - JA3 zapojeny k měniči úrovně napětí s tranzistory z 3,3 V na 5 V. Reference nižšího napětí je tedy k měniči přvedena z desky Nexys, reference napětí vyššího z 5V výstupu desky Arduino UNO. Měnič má k dispozici čtyři kanály, přičemž využíváme tři z nich, jelikož máme připojeny tři serva. </p>
   
 
   
