@@ -12,7 +12,7 @@
 <div>
   <h2>Teoretický rozbor a vysvětlení problému</h2>
   <p>Cílem projektu je vývoj a implementace programu pro ovládání úhlu natočení na sobě nezávislých servomotorů na desku Nexys A7. Natočení jednotlivých servmotorů je řízeno pomocí pulzně šířkové modulace.</p>
-  <p><h3>Ovládání polohy servomotoru pomocí pulsně šířkové modulace (PWM)</h3>
+  <p><h4>Ovládání polohy servomotoru pomocí pulsně šířkové modulace (PWM)</h4>
 </div>
 
 
