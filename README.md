@@ -1,5 +1,5 @@
 <h1 align="center"> Řešení semestrálního projektu z předmětu BPC-DE1</h1>
-<h2 align="center">>Zadání č. 3: Řízení polohy servomotoru pomocí PWM </h2>
+<h2 align="center">Zadání č. 3: Řízení polohy servomotoru pomocí PWM </h2>
 
 <div>
   <h2>Na projektu spolupracovali:</h2>
