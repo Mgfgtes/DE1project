@@ -24,7 +24,7 @@
   - provozní napětí 4,8 až 6 V</p>
 
   
-</div>![images](https://github.com/Mgfgtes/DE1project/assets/114689757/3779bf2f-b7eb-4b85-895d-2b3a8e032bf2)
+</div>
 
 
 
@@ -32,3 +32,5 @@
 
 
 
+![images](https://github.com/Mgfgtes/DE1project/assets/114689757/3c86d7c1-057c-48ba-b715-df0f15d1165f)
+![images](https://github.com/Mgfgtes/DE1project/assets/114689757/8be47412-da46-46cd-b9df-2b1ff67bac8d)
