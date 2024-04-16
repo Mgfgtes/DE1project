@@ -20,6 +20,7 @@
   - provozní napětí 4,8 až 6 V</p>
   
 ![Bez názvu](https://github.com/Mgfgtes/DE1project/assets/114689757/30379b20-aba9-4a3e-b064-d610f1a20e01)
+<p>Obrzek časových průběhů je překreslen z datasheetu SG90. 
 </div>
 <br>
 <div>
