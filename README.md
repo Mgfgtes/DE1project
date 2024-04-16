@@ -14,6 +14,8 @@
   <p>Cílem projektu je vývoj a implementace programu pro ovládání úhlu natočení na sobě nezávislých servomotorů na desku Nexys A7. Natočení jednotlivých servmotorů je řízeno pomocí pulzně šířkové modulace.</p>
   <p><h3>Ovládání polohy servomotoru pomocí pulsně šířkové modulace (PWM)</h3></p>
   <p>Servomotor (též zkráceně servo) je typ motoru, u něhož můžeme pomocí řídícího signálu řídit natočení osy. Lze tak nastavit přesný úhel natočení serva na základě vstupních požadavků uživatele. Poloha serva se nastavuje pomocí měnící se střídy signálu přivedeného na jeho řídídí vstup. Na tento vstup mohou být přivedeny dvě logické úrovně, logická 1 a logická 0, přičemž střída řídícího signálu udává poměr mezi těmito úrovněmi. Pomocí PWM je tato střída nastavována, a tím i poloha natočení serva.</p> 
+  ![Bez názvu](https://github.com/Mgfgtes/DE1project/assets/114689757/3b27ce93-0262-4aea-ad2b-9ca34009be79)
+
 </div>
 <br>
 <div>
@@ -31,7 +33,7 @@
   <p><h4>Popis hardwarového zapojení</h4>
   Program v jazyce VHDL je nahrán na desku Nexys A7, přičemž pro připojení servomotorů k desce jsou využity Pmod výstupy s označením JA. Zapojeny jsou tři serva, jejich řídící vstupy jsou zapojeny každý na jeden z nezávislých výstupů JA1 až JA3. To umožňuje každé servo ovládat odděleně, nezávisle na ostatních, přičemž přepínání ovládání mezi servy je realizováno pomocí přepínačů na desce Nexys. Z desky Nexys je dále vyveden výstup 3,3 V (JA6) a výstup GND (JA5). Provozní napětí serv je ovšem 5 V, a proto jsou řídící výstupy JA1 až JA3 zapojeny k měniči úrovně napětí s tranzistory z 3,3 V na 5 V na vstupy LV1 až LV3. Reference nižšího napětí je tedy k měniči přivedena z desky Nexys na vstup LV měniče, reference napětí vyššího je přivedena z 5V výstupu desky Arduino UNO na vstup HV měniče. Měnič má k dispozici čtyři kanály, přičemž využíváme tři z nich, jelikož máme připojeny tři serva. Ze vstupů HV1 až HV3 poté odebíráme řídící signály pro jednotlivá serva o požadované úrovni 5 V. Napájecí výstupy serv jsou připojeny na 5 V. Z desky Arduino UNO je také vyveden výstup GND, všechny výstupy GND jsou navzájem propojeny a přivedeny také na referenční GND vstupy měniče. Implementace umožňuje snadné přidání ovládání dalších serv pomocí jednoduché úpravy VHDL kódu. Počet serv je omezen počtem výstupních pinů Pmod. </p>
   
-ú![Natoceni serva](https://github.com/Mgfgtes/DE1project/assets/114689757/582d27ea-dd2c-4cb7-9637-5e0f07c13be5)
+
   
 </div>
 
