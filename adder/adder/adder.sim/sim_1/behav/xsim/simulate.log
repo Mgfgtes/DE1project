@@ -1,6 +1,0 @@
-Vivado Simulator 2020.2
-Time resolution is 1 ps
-Note: Stimulus process started
-Time: 0 ps  Iteration: 0  Process: /tb_full_adder/p_stimulus  File: C:/Users/247800/Documents/adder/adder.srcs/sim_1/new/tb_full_adder.vhd
-Note: Stimulus process finished
-Time: 800 ns  Iteration: 0  Process: /tb_full_adder/p_stimulus  File: C:/Users/247800/Documents/adder/adder.srcs/sim_1/new/tb_full_adder.vhd
