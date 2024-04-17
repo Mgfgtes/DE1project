@@ -1,1 +1,0 @@
--wto "63a19cc8f0da4dbabd1c38eb7a420985" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "cfg_tb_debounce_behav" "xil_defaultlib.cfg_tb_debounce" -log "elaborate.log" 
