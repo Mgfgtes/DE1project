@@ -46,7 +46,11 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
  </p>
 
 </div>
-
+<br>
+<div>
+  <p><h2>Uživatelské ovládání serv</h2></p>
+  <p></p>
+</div>
 
 
 
