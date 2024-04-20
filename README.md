@@ -16,11 +16,11 @@
   <p>Servomotor (též zkráceně servo) je typ motoru, u něhož můžeme pomocí řídícího signálu řídit natočení osy. Lze tak nastavit přesný úhel natočení serva na základě vstupních požadavků uživatele. Poloha serva se nastavuje pomocí měnící se střídy signálu přivedeného na jeho řídídí vstup. Na tento vstup mohou být přivedeny dvě logické úrovně, logická 1 a logická 0, přičemž střída řídícího signálu udává poměr mezi těmito úrovněmi. Pomocí PWM je tato střída nastavována, a tím i poloha natočení serva. 
   <p><h4>Pro použitá serva udává výrobce následující důležité parametry:</h4>
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
-  - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms.<br>
+  - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms. Při testování programu jsme ovšem zjistili, že výrobcem dané meze odpovídají natočení serva jen přibližně o 90°, a proto délku impulsu budeme měnit v romezí od 0,5 ms do 2,5 ms.<br>
   - provozní napětí 4,8 až 6 V</p>
   
 ![Bez názvu](https://github.com/Mgfgtes/DE1project/assets/114689757/30379b20-aba9-4a3e-b064-d610f1a20e01)
-<p>Obrázek časových průběhů je překreslen z datasheetu Micro Serva SG90.</p> 
+<p>Obrázek výrobcem udávaných časových průběhů je překreslen z datasheetu Micro Serva SG90.</p> 
 </div>
 <br>
 <div>
