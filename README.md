@@ -39,10 +39,13 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 <p>Schéma hardwarového zapojení</p>
 
 </div>
+<br>
+<div>
+<p><h2>Popis programové části</h2></p>
+<p><h4>Popis a simulace nově vytvořené VHDL komponenty</h4> 
+ </p>
 
-
-
-
+</div>
 
 
 
