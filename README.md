@@ -48,8 +48,8 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 </div>
 <br>
 <div>
-  <p><h2>Uživatelské ovládání serv</h2></p>
-  <p></p>
+  <p><h2>Uživatelské ovládání</h2></p>
+  <p>Pomocí tří přepínačů umístěných na spodní části desky (SW0, SW1 a SW2) si může uživatel zvolit, jaké servo chce ovládat. Vždy může ovládat</p>
 </div>
 
 
