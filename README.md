@@ -56,7 +56,7 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
   <p>Jako vizuální ukazatel polohy hřídele může u prvního serva, spínaného přepínačem SW0 na portu J15, sloužit uživateli deset LED umístěných na desce nad přepínači, které se rozsvěcují a zhasínají dle natočení serva.<br> - je-li natočení serva 0°, tedy minimální krajní pozice, jsou všechny LED zhasnuty. Při zvětšování úhlu natočení se postupně LED začnou zleva rozsvěcet, až při maximu 180° svítí všechny. Stupnice je lineární, tedy přibližně každých 18° se rozsvítí další LED<br></p>       
   
 ![Foto zapojeni](https://github.com/Mgfgtes/DE1project/assets/114689757/7f6332b1-0204-4de6-b76d-2c031a7dfce8)
-<p><Výsledné zapojení se třemi servy></p>
+<p>Výsledné zapojení se třemi servy</p>
 </div>
 
 
