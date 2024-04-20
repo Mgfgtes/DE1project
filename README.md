@@ -54,8 +54,9 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
   <p>Pomocí stisku nebo držení žlutých tlačítek lze otáčet s vybranými servy s rozsahem 0° až 180°.<br>
   - zapojeno je horní tlačítko s označením BTNU pro otáčení hřídele jedním směrem (zvětšování úhlu natočení), spodní tlačítko s označením BTND pro otáčení hřídele opačným směrem (zmenšování úhlu natočení) a prostřední tlačítko s označením BTNC pro nastavení hřídele do výchozí pozice, přibližně do čtvrtiny natočení z celkového rozsahu (výchozí pozice se dá ve VHDL kódu jednoduše změnit)<br></p>
   <p>Jako vizuální ukazatel polohy hřídele může u prvního serva, spínaného přepínačem SW0 na portu J15, sloužit uživateli deset LED umístěných na desce nad přepínači, které se rozsvěcují a zhasínají dle natočení serva.<br> - je-li natočení serva 0°, tedy minimální krajní pozice, jsou všechny LED zhasnuty. Při zvětšování úhlu natočení se postupně LED začnou zleva rozsvěcet, až při maximu 180° svítí všechny. Stupnice je lineární, tedy přibližně každých 18° se rozsvítí další LED<br></p>       
-
-
+  
+![Foto zapojeni](https://github.com/Mgfgtes/DE1project/assets/114689757/7f6332b1-0204-4de6-b76d-2c031a7dfce8)
+<p><Výsledné zapojení se třemi servy></p>
 </div>
 
 
