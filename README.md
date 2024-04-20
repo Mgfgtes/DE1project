@@ -53,8 +53,8 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
   - ovládání serv je spínáno prvními třemi přepínači zprava, tedy přepínači na portech s označením J15 (první servo), L16 (druhé servo) a M13 (třetí servo) <br></p>
   <p>Pomocí stisku nebo držení žlutých tlačítek lze otáčet s vybranými servy s rozsahem až 180°.<br>
   - zapojeno je horní tlačítko s označením BTNU pro otáčení hřídele jedním směrem, spodní tlačítko s označením BTND pro otáčení hřídele opačným směrem a prostřední tlačítko s označením BTNC pro nastavení hřídele do výchozí pozice, přibližně do čtvrtiny natočení z celkového rozsahu (výchozí pozice se dá ve VHDL kódu jednoduše změnit)<br></p>
-  <p>
-    
+  <p>Jako vizuální ukazatel polohy hřídele může u prvního serva, spínaného přepínačem SW0 na portu J15, sloužit uživateli deset LED umístěných na desce nad přepínači, které se rozsvěcují a zhasínají dle natočení serva.<br> - je-li natočení serva 0°, tedy minimální krajní pozice, jsou všechny LED zhasnuty. Při zvětšování úhlu natočení se postupně LED začnou zprava rozsvěcet, až při maximu 180° svítí všechny. Stupnice je lineární, tedy přibližně každých 18° se rozsvítí další LED<br></p>       
+  
 </div>
 
 
