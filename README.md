@@ -50,7 +50,10 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 <div>
   <p><h2>Uživatelské ovládání</h2></p>
   <p>Pomocí tří přepínačů umístěných na spodní části desky vpravo si může uživatel zvolit, jaké servo chce ovládat. Vždy ovládá všechna serva, která jsou sepnuta, tedy může jich ovládat i více současně.<br>
-  <p> - ovládání serv je spínáno přepínači na portech s označením J15 (první servo), L16 (druhé servo) a M13 (třetí servo) 
+  - ovládání serv je spínáno přepínači na portech s označením J15 (první servo), L16 (druhé servo) a M13 (třetí servo) <br></p>
+  <p>Pomocí stisku nebo držení modrých tlačítek lze otáčet s vybranými servy s rozsahem až 180°.<br>
+  -  
+    
 </div>
 
 
