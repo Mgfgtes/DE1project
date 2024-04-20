@@ -37,9 +37,11 @@
 
   
 
+![Schema zapojeni](https://github.com/Mgfgtes/DE1project/assets/114689757/80ef8e48-1399-4865-a4cc-4bf4bb2dfe68)
 
-![Schema zapojeni](https://github.com/Mgfgtes/DE1project/assets/114689757/6894bd6a-52b1-4e59-b504-a0dcaf11f327)
+
 </div>
+
 
 
 
