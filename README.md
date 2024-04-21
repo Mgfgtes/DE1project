@@ -63,3 +63,6 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 
 
 
+https://github.com/Mgfgtes/DE1project/assets/114689757/3e1cef71-5458-42c8-8bba-6ebc4fa53b58
+
+
