@@ -58,8 +58,8 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 ![Foto zapojeni](https://github.com/Mgfgtes/DE1project/assets/114689757/7f6332b1-0204-4de6-b76d-2c031a7dfce8)
 <p>Výsledné zapojení se třemi servy</p>
 <br>
-https://github.com/Mgfgtes/DE1project/assets/114689757/cd505af3-8283-4342-bff6-1d6995125e22
 
+https://github.com/Mgfgtes/DE1project/assets/114689757/cd505af3-8283-4342-bff6-1d6995125e22
 <p></p>
 
 
