@@ -43,6 +43,7 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 <div>
 <p><h2>Popis programové části</h2></p>
 <p>Na obrázku níže se nachází celkové schéma top_level, kde jsou obsaženy všechny použité komponenty. </p>  
+  
 ![top_level](https://github.com/Mgfgtes/DE1project/assets/114689757/a4397063-eed4-40cc-8d28-a4293e025803)
 <p>Schéma programové implementace</p> 
   
