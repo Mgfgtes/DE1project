@@ -43,7 +43,7 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 <div>
 <p><h2>Popis programové části</h2></p>
 <p><h4>Popis a simulace nově vytvořené VHDL komponenty</h4> 
- </p>
+Pro ovládní serv pomocí PWM jsme naprogramovali a použili jednu novou komponentu controller. </p>
 
 </div>
 <br>
