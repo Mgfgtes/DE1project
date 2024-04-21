@@ -42,9 +42,9 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 <br>
 <div>
 <p><h2>Popis programové části</h2></p>
-  
+<p>Na obrázku níže se nachází celkové schéma top_level, kde jsou obsaženy všechny použité komponenty. </p>  
 ![top_level](https://github.com/Mgfgtes/DE1project/assets/114689757/a4397063-eed4-40cc-8d28-a4293e025803)
-<p></p> 
+<p>Schéma programové implementace</p> 
   
 <p><h4>Popis a simulace nově vytvořené VHDL komponenty</h4> 
 Pro ovládní serv pomocí PWM jsme naprogramovali a použili novou komponentu s názvem PWM_controller. Pomocí ní ovládáme šířku výstupních impulsů a tím i střídu výsupních PWM signálů. Tato komponenta je řízena výstupem komponenty simple_counter, který představuje 11bitový vektor s hodnotami 0 až 2047. </p>
