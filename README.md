@@ -42,7 +42,7 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 <br>
 <div>
 <p><h2>Popis programové části</h2></p>
-<p>Na obrázku níže se nachází celkové schéma top_level, kde jsou obsaženy všechny použité komponenty. Vnitřní taktovací hodinový signál je 100 MHz, tedy jeho perioda je 10 ns. Výstup komponenty clock_enable s periodou 1000 je připojen na enable vstup komponenty simple_counter. Tím je zajištěna inkrementace výstupní hodnoty simple counteru každých 10 µs. c</p>  
+<p>Na obrázku níže se nachází celkové schéma top_level, kde jsou obsaženy všechny použité komponenty. Vnitřní taktovací hodinový signál je 100 MHz, tedy jeho perioda je 10 ns. Výstup komponenty clock_enable s periodou 1000 je připojen na enable vstup komponenty simple_counter. Tím je zajištěna inkrementace výstupní hodnoty simple counteru každých 10 µs. Jelikož c</p>  
   
 ![top_level](https://github.com/Mgfgtes/DE1project/assets/114689757/a4397063-eed4-40cc-8d28-a4293e025803)
 <p>Schéma programové implementace</p> 
