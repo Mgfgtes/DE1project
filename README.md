@@ -24,14 +24,21 @@
   
   <p><h4>Pro použitá serva udává výrobce následující důležité parametry:</h4>
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
-  - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms. Při testování programu jsme ovšem zjistili, že výrobcem dané meze odpovídají natočení serva jen přibližně o 90°, a proto délku impulsu budeme měnit v romezí od 0,5 ms do 2,5 ms, abychom dosáhli natočení o 180°. <br>
+  - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms. Při testování programu jsme ovšem zjistili, že výrobcem dané meze odpovídají natočení serva jen přibližně o 90°, a proto délku impulsu budeme měnit v romezí od 0,5 ms do 2,5 ms, abychom dosáhli natočení o 180°. Níže uvedené obrázky z měření digitálním osciloskopem ukazují skutečnou minimální a maximální šířku pulzu na PWM výstupu pro otočení serva o 180°.<br>
   - provozní napětí 4,8 až 6 V</p>
   
   ![Natoceni serva](https://github.com/Mgfgtes/DE1project/assets/114689757/0d093c4b-1b02-4a41-9426-395c6ebf445d)
-<p>Obrázek výrobcem udávaných časových průběhů je překreslen z datasheetu Micro Serva SG90.</p> 
+<p>Obrázek výrobcem udávaných časových průběhů, překresleno z datasheetu Micro Serva SG90</p> 
+
+![OSC_05ms](https://github.com/Mgfgtes/DE1project/assets/114689757/449af7f4-e191-4de7-b51b-0d16f925fdef)
+<p>Měření osciloskopem - skutečná minimální šířka pulzu na výstupu PWM (0,5 ms)</p>
+
+![OSC_25ms](https://github.com/Mgfgtes/DE1project/assets/114689757/6e94a501-7177-4582-ae4e-6e2f9585e5c0)
+<p>Měření osciloskopem - skutečná maximální šířka pulzu na výstupu PWM (2,5 ms)</p>
 </div>
 <br>
 <div>
+
   <p><h2>Hardwarové komponenty a schéma zapojení</h2></p>
   <p><h4>Pro sestavení projektu jsme použili hardwarové komponenty:</h4>
   - servomotory Micro Servo SG90 <br>
