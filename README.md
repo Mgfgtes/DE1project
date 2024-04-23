@@ -83,6 +83,11 @@ Pro ovládní serv pomocí PWM jsme naprogramovali a použili novou komponentu s
 ![PWM_src1](https://github.com/Mgfgtes/DE1project/assets/114689757/6c318074-b685-452e-b35a-5e3e7e4fdf1f)
 </div>
 <p>efef</p>
+<div align ="center">
+
+  ![PWM_src2](https://github.com/Mgfgtes/DE1project/assets/114689757/d389a529-5132-47cc-8024-c69890d78591)
+
+<div>  
 </div>
 <br>
 <div>
