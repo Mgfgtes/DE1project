@@ -24,7 +24,7 @@
   
   <p><h4>Pro použitá serva udává výrobce následující důležité parametry:</h4>
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
-  - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms. Při testování programu jsme ovšem zjistili, že výrobcem dané meze odpovídají natočení serva jen přibližně o 90°, a proto délku impulsu budeme měnit v romezí od 0,5 ms do 2,5 ms, abychom dosáhli natočení o 180°.<br>
+  - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms. Při testování programu jsme ovšem zjistili, že výrobcem dané meze odpovídají natočení serva jen přibližně o 90°, a proto délku impulsu budeme měnit v romezí od 0,5 ms do 2,5 ms, abychom dosáhli natočení o 180°. <br>
   - provozní napětí 4,8 až 6 V</p>
   
   
