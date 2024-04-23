@@ -89,7 +89,7 @@ Pro ovládní serv pomocí PWM jsme naprogramovali a použili novou komponentu s
 ![PWM_src2](https://github.com/Mgfgtes/DE1project/assets/114689757/aafee9db-c38d-481d-9db2-68e398b146fd)
 </div>
 <br>
-<p></p>
+<p>Abychom mohli simulovat funkci komponenty, museli jsme v jejím testbenchovém souboru změnit velikost periody hodinového signálu z 10 ns na 100 ps. Je to z toho důvodu, abychom v časových průbězích byli schopni vidět chování programu v případě přetečení čítače. Perioda 20 ms by byla příliš dlouhá a v simulačním prostředí bychom ji celou neviděli. Pro simulaci máme periodu tedy stokrát menší (200 ns) a můžeme vidět, jak se po jejím proběhnutí nastaví ovfl na logickou 1 a následně je vygenerován impulz na výstupu pwm. Vstup enable je trvale nastaven na logickou 1, tlačítkové vstupy up a down na logickou 0 a resetovací vstup rst nejprve na logickou 1 po dobu 1 ns, a potom na logickou 0.</p>
 
 </div>
 <br>
