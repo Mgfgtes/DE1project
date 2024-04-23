@@ -38,8 +38,10 @@
 <p>Měření osciloskopem - skutečná minimální šířka pulzu na výstupu PWM (0,5 ms)</p> 
 <br>
 <br>
-
+<div align="center">
+  
 ![OSC_25ms](https://github.com/Mgfgtes/DE1project/assets/114689757/6e94a501-7177-4582-ae4e-6e2f9585e5c0)
+</div>
 <p>Měření osciloskopem - skutečná maximální šířka pulzu na výstupu PWM (2,5 ms)</p>
 </div>
 <br>
