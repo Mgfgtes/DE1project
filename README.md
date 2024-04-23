@@ -15,7 +15,7 @@
   <p><h3>Ovládání polohy servomotoru pomocí pulsně šířkové modulace (PWM)</h3></p>
   <p>Servomotor (též zkráceně servo) je typ motoru, u něhož můžeme pomocí řídícího signálu ovládat natočení osy. Lze tak nastavit přesný úhel natočení serva na základě vstupních požadavků uživatele. Poloha serva se nastavuje pomocí měnící se střídy signálu přivedeného na jeho řídídí vstup. Na tento vstup mohou být přivedeny dvě logické úrovně, logická 1 a logická 0, přičemž střída řídícího signálu udává poměr mezi těmito úrovněmi. Pomocí PWM je tato střída nastavována, a tím i poloha natočení serva. Princip PWM je nastíněn na následujícím obrázku. Jedná se vlastně o integrátor s komparátorem, kde je sčítána doba, po kterou vstupní napěťové pulzy (v obrázku zelenou barvou) mají nižší úroveň, než modulační signál (černou barvou), přičemž po tuhle dobu je výstupní napětí (červenou barvou) v logické úrovni 1. Jakmile dojde k překročení úrovně modulačního signálu, výstup se nastaví do logické úrovně 0. Tento proces se opakuje každou periodu vstupního signálu.</p>
   
-   ![pwm](https://github.com/Mgfgtes/DE1project/assets/114689757/49beaede-744e-4225-98ff-97c75ed08054)
+   ![pwm align="center"](https://github.com/Mgfgtes/DE1project/assets/114689757/49beaede-744e-4225-98ff-97c75ed08054)
   
   <p><h4>Pro použitá serva udává výrobce následující důležité parametry:</h4>
   - základní frekvence řídídích pulzů je 50 Hz, základní perioda je tedy 20 ms <br>
