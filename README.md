@@ -27,7 +27,6 @@
   - možnost otočení osy serva o 180°, krajní pozice 0° odpovídá šířce pulzu 1 ms, krajní pozice 180° odpovídá šířce pulzu 2 ms. Při testování programu jsme ovšem zjistili, že výrobcem dané meze odpovídají natočení serva jen přibližně o 90°, a proto délku impulzu budeme měnit v romezí od 0,5 ms do 2,5 ms, abychom dosáhli natočení o 180°. Níže uvedené obrázky z měření digitálním osciloskopem ukazují skutečnou minimální a maximální šířku pulzu na PWM výstupu pro otočení serva o 180°.<br>
   - provozní napětí 4,8 až 6 V</p>
 <br>
-<br>
 
   ![Natoceni serva](https://github.com/Mgfgtes/DE1project/assets/114689757/0d093c4b-1b02-4a41-9426-395c6ebf445d)
 <p>Obrázek výrobcem udávaných časových průběhů, překresleno z datasheetu Micro Serva SG90</p> 
