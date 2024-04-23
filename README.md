@@ -13,12 +13,12 @@
   <p><h2>Teoretický rozbor a vysvětlení problému</h2></p>
   <p>Cílem projektu je vývoj a implementace programu pro ovládání úhlu natočení na sobě nezávislých servomotorů na desku Nexys A7. Natočení jednotlivých servmotorů je řízeno pomocí pulzně šířkové modulace.</p>
   <p><h3>Ovládání polohy servomotoru pomocí pulsně šířkové modulace (PWM)</h3></p>
-  <p>Servomotor (též zkráceně servo) je typ motoru, u něhož můžeme pomocí řídícího signálu ovládat natočení osy. Lze tak nastavit přesný úhel natočení serva na základě vstupních požadavků uživatele. Poloha serva se nastavuje pomocí měnící se střídy signálu přivedeného na jeho řídídí vstup. Na tento vstup mohou být přivedeny dvě logické úrovně, logická 1 a logická 0, přičemž střída řídícího signálu udává poměr mezi těmito úrovněmi. Pomocí PWM je tato střída nastavována, a tím i poloha natočení serva. Princip PWM je nastíněn na následujícím obrázku. Jedná se vlastně o integrátor s komparátorem, kde je sčítána doba, po kterou vstupní napěťové pulzy nosného signálu (v obrázku zelenou barvou) mají nižší úroveň, než modulační signál (černou barvou), přičemž po tuhle dobu je výstupní napětí (červenou barvou) v logické úrovni 1. Jakmile dojde k překročení úrovně modulačního signálu, výstup se nastaví do logické úrovně 0. Tím je nastavena šířka výstupního obdélníkového pulzu v závislosti na velikosti úrovně modulačního signálu. Tento proces se opakuje každou periodou nosného signálu.</p>
+  <p>Servomotor (též zkráceně servo) je typ motoru, u něhož můžeme pomocí řídícího signálu ovládat natočení osy. Lze tak nastavit přesný úhel natočení serva na základě vstupních požadavků uživatele. Poloha serva se nastavuje pomocí měnící se střídy signálu přivedeného na jeho řídídí vstup. Na tento vstup mohou být přivedeny dvě logické úrovně, logická 1 a logická 0, přičemž střída řídícího signálu udává poměr mezi těmito úrovněmi. Pomocí PWM je tato střída nastavována, a tím i poloha natočení serva. Princip PWM je nastíněn na následujícím obrázku. Jedná se vlastně o integrátor s komparátorem, kde je sčítána doba, po kterou vstupní napěťové pulzy nosného signálu (v obrázku zelenou barvou) mají nižší úroveň, než modulační signál (černou barvou), přičemž po tuhle dobu je výstupní napětí (červenou barvou) v logické úrovni 1. Jakmile dojde k překročení úrovně modulačního signálu, výstup se nastaví do logické úrovně 0. Tím je nastavena šířka výstupního obdélníkového pulzu v závislosti na velikosti úrovně modulačního signálu. Tento proces se opakuje každou periodu nosného signálu.</p>
    <div align="center">
      
 ![pwm](https://github.com/Mgfgtes/DE1project/assets/114689757/49beaede-744e-4225-98ff-97c75ed08054)
    </div>  
-    
+   <p>K principu pulsně šířkové modulace, převzato z internetu</p> 
      
    
   
