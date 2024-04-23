@@ -29,9 +29,11 @@
   
   ![Natoceni serva](https://github.com/Mgfgtes/DE1project/assets/114689757/0d093c4b-1b02-4a41-9426-395c6ebf445d)
 <p>Obrázek výrobcem udávaných časových průběhů, překresleno z datasheetu Micro Serva SG90</p> 
+<br>
 
 ![OSC_05ms](https://github.com/Mgfgtes/DE1project/assets/114689757/449af7f4-e191-4de7-b51b-0d16f925fdef)
 <p>Měření osciloskopem - skutečná minimální šířka pulzu na výstupu PWM (0,5 ms)</p>
+<br>
 
 ![OSC_25ms](https://github.com/Mgfgtes/DE1project/assets/114689757/6e94a501-7177-4582-ae4e-6e2f9585e5c0)
 <p>Měření osciloskopem - skutečná maximální šířka pulzu na výstupu PWM (2,5 ms)</p>
