@@ -3,10 +3,10 @@
 
 <div>
   <h2>Na projektu spolupracovali:</h2>
-  <p>Matěj Matoušek(247142)</p>
-  <p>Věra Podestátová (247800)</p>
-  <p>Lukáš Bahurinský (240227)</p>
-  <p>Petr Losert (247140)</p>
+  <p>Matěj Matoušek(247142) - vývoj nové VHDL komponenty pro ovládání natočení servomotoru</p>
+  <p>Věra Podestátová (247800) - kresba schémat, zapojení hardware, video a fotodokumentace</p>
+  <p>Lukáš Bahurinský (240227) - </p>
+  <p>Petr Losert (247140) - tvorba textu dokumentace a výsledného readme.md souboru, kresba schémat</p>
 </div>
 <br>
 <div>
@@ -89,7 +89,7 @@ Pro ovládní serv pomocí PWM jsme naprogramovali a použili novou komponentu s
 ![PWM_src2](https://github.com/Mgfgtes/DE1project/assets/114689757/aafee9db-c38d-481d-9db2-68e398b146fd)
 </div>
 <br>
-<p>Abychom mohli simulovat funkci komponenty, museli jsme v jejím testbenchovém souboru změnit velikost periody hodinového signálu z 10 ns na 100 ps. Je to z toho důvodu, abychom v časových průbězích byli schopni vidět chování programu v případě přetečení čítače. Perioda 20 ms by byla příliš dlouhá a v simulačním prostředí bychom ji celou neviděli. Pro simulaci máme periodu tedy stokrát menší (200 ns) a můžeme vidět, jak se po jejím proběhnutí nastaví ovfl na logickou 1 a následně je vygenerován impulz na výstupu pwm. Vstup enable je trvale nastaven na logickou 1, tlačítkové vstupy up a down na logickou 0 a resetovací vstup rst nejprve na logickou 1 po dobu 1 ns, a potom na logickou 0.</p>
+<p>Abychom mohli simulovat funkci komponenty, museli jsme v jejím testbenchovém souboru změnit velikost periody hodinového signálu z 10 ns na 100 ps. Je to z toho důvodu, abychom v časových průbězích byli schopni vidět chování programu v případě přetečení čítače. Perioda 20 ms by byla příliš dlouhá a v simulačním prostředí bychom ji celou neviděli. Pro simulaci máme periodu tedy stokrát menší (200 ns) a můžeme vidět, jak se po jejím proběhnutí nastaví ovfl na logickou 1 a následně je vygenerován impulz na výstupu pwm. Vstup enable je trvale nastaven na logickou 1, tlačítkové vstupy up a dwn na logickou 0 a resetovací vstup rst nejprve na logickou 1 po dobu 1 ns, a potom na logickou 0.</p>
 <div align ="center">
   
 ![Screenshot sim](https://github.com/Mgfgtes/DE1project/assets/114689757/e6d4a4a1-82e2-48a6-8829-9588e83b6b3c)
