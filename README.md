@@ -28,6 +28,7 @@
   - provozní napětí 4,8 až 6 V</p>
 <br>
 <br>
+
   ![Natoceni serva](https://github.com/Mgfgtes/DE1project/assets/114689757/0d093c4b-1b02-4a41-9426-395c6ebf445d)
 <p>Obrázek výrobcem udávaných časových průběhů, překresleno z datasheetu Micro Serva SG90</p> 
 <br>
