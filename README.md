@@ -80,11 +80,10 @@ Pro ovládní serv pomocí PWM jsme naprogramovali a použili novou komponentu s
 
 
 
-<div style="float: right">
-<p>dwccedc</p>
-  
+<div align ="center">
+
 ![PWM_src1](https://github.com/Mgfgtes/DE1project/assets/114689757/7e6a2fdd-ad11-4e44-af12-fe6adf5e749e)
-</div>
+
 
 </div>
 <br>
