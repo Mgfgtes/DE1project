@@ -31,9 +31,10 @@
 <p>Obrázek výrobcem udávaných časových průběhů, překresleno z datasheetu Micro Serva SG90</p> 
 <br>
 <br>
-
+<div align="center">
 ![OSC_05ms](https://github.com/Mgfgtes/DE1project/assets/114689757/449af7f4-e191-4de7-b51b-0d16f925fdef)
 <p>Měření osciloskopem - skutečná minimální šířka pulzu na výstupu PWM (0,5 ms)</p>
+</div> 
 <br>
 <br>
 
