@@ -77,12 +77,12 @@ Pro ovládní serv pomocí PWM jsme naprogramovali a použili novou komponentu s
 <p>V souladu s informacemi v datasheetu je základní perioda serva (tedy pro náš PWM algoritmus jedna čítací perioda čítače) 20 ms. Víme, že vnitřní taktovací signál na desce má kmitočet 100 MHz, tedy periodu 10 ns. Použili jsme komponentu clock_enable s periodou 1000 a tím na jejím výstupu dostali pulz každých 10 µs. Tento signál (sig_en_10µs) přivádíme na povolovací (enable) vstup čítače simple_counter. Tím zajistíme inkrementaci jeho výstupní hodnoty každých 10 µs. Aby jedna perioda čítače činila 20 ms, musí mít 11bitový výstup (čítá od 0 do 2047 a každých 10 µs zvýší hodnotu o jedničku). Z uvedého ovšem vyplývá, že perioda bude 20,047 ms. Původně jsme u komponenty PWM_controller implementovali také výstup ovfl, který měl být spojen na resetující vstup čítače, a nastaven tak, aby jej při hodnotě čítače 2000 zresetoval. Na měření pomocí osciloskopu (kde lze vidět i periodu rovnu přibližně 20,047 ms) jsme si ovšem ověřili, že tento přesah nemá na chod PWM vliv. Periody impulzů jsou v požadovaných hodnotách a navíc jsme je pro tato serva museli i značně pozměnit (0,5 až 2,5 ms). Problém by mohl nastat u jiných, mnohem více citlivých serv. Výstup ovfl tedy není využit a na resetující vstup čítače je trvale připojena logická 0.</p>
 
 
-![PWM_src1](https://github.com/Mgfgtes/DE1project/assets/114689757/6c318074-b685-452e-b35a-5e3e7e4fdf1f)
+
 
 
 <div align ="center">
 
-![PWM_src1](https://github.com/Mgfgtes/DE1project/assets/114689757/7e6a2fdd-ad11-4e44-af12-fe6adf5e749e)
+![PWM_src1](https://github.com/Mgfgtes/DE1project/assets/114689757/6c318074-b685-452e-b35a-5e3e7e4fdf1f)
 </div>
 
 </div>
