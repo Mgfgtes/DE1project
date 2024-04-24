@@ -5,7 +5,7 @@
   <h2>Na projektu spolupracovali:</h2>
   <p>Matěj Matoušek(247142) - vývoj nové VHDL komponenty pro ovládání natočení servomotoru</p>
   <p>Věra Podestátová (247800) - kresba schémat, zapojení hardware, video a fotodokumentace</p>
-  <p>Lukáš Bahurinský (240227) - zapojení hardware, informace o technické dokumentaci (tranzistorový měnič úrovně, Nexys deska, Arduino UNO deska, servo)</p>
+  <p>Lukáš Bahurinský (240227) - zapojení hardware, informace o technické dokumentaci (tranzistorový měnič úrovně, Nexys deska, Arduino UNO deska, servo), fotodokumentace</p>
   <p>Petr Losert (247140) - tvorba textu dokumentace, kresba schémat, tvorba readme.md souboru</p>
 </div>
 <br>
