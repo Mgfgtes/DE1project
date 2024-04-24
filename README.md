@@ -111,7 +111,7 @@ Pro ovládní serv pomocí PWM jsme naprogramovali a použili novou komponentu s
 <br>
 <p><h4>Vývojový diagram PWM_controlleru</h4></p>
 
-![flowchat](https://github.com/Mgfgtes/DE1project/assets/114689757/f42e7943-bf00-4a4d-8d0c-f232f6edc7d1)
+
 <div>
   
   <p><h2>Uživatelské ovládání</h2></p>
