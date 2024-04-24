@@ -111,8 +111,9 @@ Pro ovládní serv pomocí PWM jsme naprogramovali a použili novou komponentu s
 <br>
 <p><h4>Vývojový diagram PWM_controlleru</h4></p>
 
-<div>![flowchat](https://github.com/Mgfgtes/DE1project/assets/114689757/0f180f71-cbdb-4981-ac4a-31d9b4430169)
-
+![flowchat](https://github.com/Mgfgtes/DE1project/assets/114689757/f42e7943-bf00-4a4d-8d0c-f232f6edc7d1)
+<div>
+  
   <p><h2>Uživatelské ovládání</h2></p>
   <p>Pomocí tří přepínačů umístěných na spodní části desky vpravo si může uživatel zvolit, jaké servo chce ovládat. Vždy ovládá všechna serva, která jsou sepnuta, tedy může jich ovládat i více současně.<br>
   - ovládání serv je spínáno prvními třemi přepínači zprava, tedy přepínači na portech s označením J15 (první servo), L16 (druhé servo) a M13 (třetí servo) <br></p>
