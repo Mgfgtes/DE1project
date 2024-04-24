@@ -69,6 +69,8 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
    
 ![top_level](https://github.com/Mgfgtes/DE1project/assets/114689757/a4397063-eed4-40cc-8d28-a4293e025803)
 <p>Schéma programové implementace</p> 
+
+https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/controller.vhd
   
 <p><h3>Popis a simulace nově vytvořené VHDL komponenty</h3> 
 <p><h4>Princip funkce nové komponenty a základní princip programu</h4></p>  
