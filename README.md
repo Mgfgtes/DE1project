@@ -71,9 +71,13 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 <p>Schéma programové implementace</p> 
 
 <p><h3>Zdrojové a simulační soubory</h3></p>
-<p>Zdrojové soubory:<br>
-- https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/controller.vhd
-  
+<p>Zdrojové soubory<br>
+- PWM_controller: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/controller.vhd
+- clock_enable: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/clock_enable.vhd
+- simple_counter: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/simple_counter.vhd
+- debounce: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/debounce.vhd
+- top_level: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/top_level.vhd
+
 <p><h3>Popis a simulace nově vytvořené VHDL komponenty</h3></p> 
 <p><h4>Princip funkce nové komponenty a základní princip programu</h4></p>  
 Pro ovládní serv pomocí PWM jsme naprogramovali a použili novou komponentu s názvem PWM_controller. Pomocí ní ovládáme šířku výstupních impulsů a tím i střídu výstupních PWM signálů. Základní princip komponenty je založen na funkci integrátoru a komparátoru. Nejprve jsme si definovali vnitřní signál sig_width, který je pro nás v PWM modulačním signálem, a jehož hodnotu uživatelsky nastavujeme tlačítky. Právě s tímto signálem totiž porovnáváme 11bitový výstup sig_count_11bit čítače simple_counter, který cyklicky čítá od 0 do 2047. Dokud je hodnota čítače menší, než úroveň modulačního signálu sig_width, je výstup pwm v úrovni logické 1. Jakmile ovšem hodnota čítače přesáhne hodnotu signálu sig_width, výstup pwm se překlopí do logické 0. V tomto stavu zůstane až do konce periody čítače a na počátku periody další se opět překlopí do logické 1, v níž zůstane opět až do chvíle, než hodnota čítače dosáhne hodnoty sig_width. Celý cyklus se poté periodicky opakuje.</p>
