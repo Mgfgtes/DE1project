@@ -72,10 +72,10 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 
 <p><h3>Zdrojové a simulační soubory</h3></p>
 <p>Zdrojové soubory<br>
-- PWM_controller: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/controller.vhd
-- clock_enable: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/clock_enable.vhd
-- simple_counter: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/simple_counter.vhd
-- debounce: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/debounce.vhd
+- PWM_controller: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/controller.vhd<br>
+- clock_enable: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/clock_enable.vhd<br>
+- simple_counter: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/simple_counter.vhd<br>
+- debounce: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/debounce.vhd<br>
 - top_level: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/top_level.vhd
 
 <p><h3>Popis a simulace nově vytvořené VHDL komponenty</h3></p> 
