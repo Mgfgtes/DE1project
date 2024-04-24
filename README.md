@@ -70,13 +70,16 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 ![top_level](https://github.com/Mgfgtes/DE1project/assets/114689757/a4397063-eed4-40cc-8d28-a4293e025803)
 <p>Schéma programové implementace</p> 
 
-<p><h3>Zdrojové a testbenchové soubory</h3></p>
+<p><h4>Zdrojové a testbenchové soubory</h4></p>
 <p>Zdrojové soubory<br>
 - PWM_controller: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/controller.vhd<br>
 - clock_enable: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/clock_enable.vhd<br>
 - simple_counter: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/simple_counter.vhd<br>
 - debounce: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/debounce.vhd<br>
-- top_level: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/top_level.vhd
+- top_level: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/top_level.vhd</p>
+
+<p>Testbenchové soubory<br>
+- tb_controller: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sim_1/new/tb_controller.vhd</p><br>
 
 <p><h3>Popis a simulace nově vytvořené VHDL komponenty</h3></p> 
 <p><h4>Princip funkce nové komponenty a základní princip programu</h4></p>  
