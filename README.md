@@ -70,7 +70,7 @@ Schéma zapojení je na obrázku níže. Program v jazyce VHDL je nahrán na des
 ![top_level](https://github.com/Mgfgtes/DE1project/assets/114689757/a4397063-eed4-40cc-8d28-a4293e025803)
 <p>Schéma programové implementace</p> 
 
-<p><h3>Zdrojové a simulační soubory</h3></p>
+<p><h3>Zdrojové a testbenchové soubory</h3></p>
 <p>Zdrojové soubory<br>
 - PWM_controller: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/controller.vhd<br>
 - clock_enable: https://github.com/Mgfgtes/DE1project/blob/main/PWM%20Servo/PWMProj.srcs/sources_1/new/clock_enable.vhd<br>
